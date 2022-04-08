@@ -7,7 +7,7 @@ Mirador.viewer({
     defaultView: 'gallery',
     sideBarPanel: 'canvas', // Configure which sidebar is selected by default. Options: info, attribution, canvas, annotations, search
     allowClose: false,
-    allowMaximize: false,
+    allowMaximize: true,
   },
   windows: [
     {
