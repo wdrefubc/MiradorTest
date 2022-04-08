@@ -3,7 +3,8 @@ import Mirador from "mirador/dist/mirador.min.js";
 Mirador.viewer({
   id: "app",
   window: {
-    views: [{ key: "scroll" }, { key: "gallery" }, {key: "book"}]
+    views: [{ key: "scroll" }, { key: "gallery" }, {key: "book"}],
+    defaultView: 'gallery',
   },
   windows: [
     {
